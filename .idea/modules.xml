@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Mall_Demo.iml" filepath="$PROJECT_DIR$/.idea/Mall_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service-provider/boot-user-service-provider.iml" filepath="$PROJECT_DIR$/user-service-provider/boot-user-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmail-interface/gmail-interface.iml" filepath="$PROJECT_DIR$/gmail-interface/gmail-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service-consumer/user-service-consumer.iml" filepath="$PROJECT_DIR$/user-service-consumer/user-service-consumer.iml" />
+    </modules>
+  </component>
+</project>
