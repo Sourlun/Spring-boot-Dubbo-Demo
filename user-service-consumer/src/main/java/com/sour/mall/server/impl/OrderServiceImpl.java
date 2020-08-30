@@ -39,6 +39,12 @@ public class OrderServiceImpl implements IOrderService {
 //    @Reference(url = "127.0.0.1:20881")
 //    UserService userService;
 
+//    /**
+//     * 自动去注册中心查找该方法 (负载均衡)(轮询)
+//     */
+//    @Reference(loadbalance = "RoundRobin")
+//    UserService userService;
+
     @Override
     public List<UserAddress> initOrder(String userId) {
 

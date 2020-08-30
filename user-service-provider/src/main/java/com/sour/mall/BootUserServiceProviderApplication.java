@@ -24,6 +24,8 @@ import org.springframework.context.annotation.ImportResource;
  *          重写配置类
  *
  *
+ *      负载均衡 (有道云笔记有):
+ *          默认使用随机调度方式
  *
  **/
 @EnableDubbo//开启基于注解dubbo功能
