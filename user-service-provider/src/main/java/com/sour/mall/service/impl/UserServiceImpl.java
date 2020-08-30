@@ -16,7 +16,7 @@ import java.util.List;
  * @author xgl
  * @date 2020/8/30 15:44
  **/
-@com.alibaba.dubbo.config.annotation.Service
+@com.alibaba.dubbo.config.annotation.Service(timeout = 3000)
 @Component
 public class UserServiceImpl implements UserService {
 
