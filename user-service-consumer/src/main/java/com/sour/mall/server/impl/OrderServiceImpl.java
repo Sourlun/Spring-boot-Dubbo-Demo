@@ -5,7 +5,6 @@ import com.sour.gmailinterface.bean.UserAddress;
 import com.sour.gmailinterface.server.IOrderService;
 import com.sour.gmailinterface.server.UserService;
 import org.apache.dubbo.config.annotation.Reference;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -33,6 +32,12 @@ public class OrderServiceImpl implements IOrderService {
      */
     @Reference
     UserService userService;
+
+    /**
+     * 自动去注册中心查找该方法 (直连)
+     */
+//    @Reference(url = "127.0.0.1:20881")
+//    UserService userService;
 
     @Override
     public List<UserAddress> initOrder(String userId) {
